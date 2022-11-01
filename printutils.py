@@ -4,3 +4,4 @@ words = words.title()
 
 print(f'我知道了，你喜欢的名言是：****-- {words} --****')
 
+
