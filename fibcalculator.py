@@ -1,6 +1,6 @@
 class FibCalculator:
     def __init__(self, cache=None):
-        if cache:
+        if cache is not None:
             self.cache=cache
         else:
             self.cache={}
